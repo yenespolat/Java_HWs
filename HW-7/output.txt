@@ -1,0 +1,48 @@
+**************************************************************************************
+Department [departmentId=1, departmentName=Accounting]
+	Manager [id=123, Mehmet Ari
+		# of Employees=3]
+			RegularEmployee
+				Person Info [id=156, firstName=Bulut, lastName=Karadag, gender=Man]
+				Employee Info [salary=4550.0, hireDate=Thu Nov 15 00:00:00 EET 2018]
+				Regular Employee Info [performansScore=75.0, bonus=51639.34]
+			Developer
+				Person Info [id=111, firstName=Ayse, lastName=Caliskan, gender=Woman]
+				Employee Info [salary=6150.0, hireDate=Tue Oct 10 00:00:00 EET 2017]
+				Regular Employee Info [performansScore=25.0, bonus=24590.16]
+				Project Info [projectName=Robotic, startDate=Wed May 01 00:00:00 EET 2019, state=Open], [projectName=CreditCard, startDate=Mon May 01 00:00:00 EET 2017, state=Close]
+			SalesEmployee
+				Person Info [id=167, firstName=Serkan, lastName=Yildiz, gender=Man]
+				Employee Info [salary=9850.0, hireDate=Sat Feb 14 00:00:00 EET 2015]
+				Regular Employee Info [performansScore=50.0, bonus=73770.49]
+				Product Info [productName=Product1, transactionDate=Tue Jan 01 00:00:00 EET 2019, price=10000.0], [productName=Product5, transactionDate=Wed Jan 11 00:00:00 EET 2017, price=90000.0]
+
+**************************************************************************************
+Department [departmentId=2, departmentName=Marketing]
+	Manager [id=256, Arzu Ozturk
+		# of Employees=2]
+			SalesEmployee
+				Person Info [id=213, firstName=Mustafa, lastName=Emir, gender=Man]
+				Employee Info [salary=11800.0, hireDate=Sat May 24 00:00:00 EEST 2014]
+				Regular Employee Info [performansScore=100.0, bonus=74683.54]
+				Product Info [productName=Product3, transactionDate=Thu Nov 01 00:00:00 EET 2018, price=15000.0], [productName=Product2, transactionDate=Fri Feb 01 00:00:00 EET 2019, price=1500.0], [productName=Product1, transactionDate=Tue Jan 01 00:00:00 EET 2019, price=10000.0]
+			Developer
+				Person Info [id=247, firstName=Fatma, lastName=Esin, gender=Woman]
+				Employee Info [salary=6150.0, hireDate=Fri Nov 04 00:00:00 EET 2016]
+				Regular Employee Info [performansScore=80.0, bonus=25316.45]
+				Project Info [projectName=ATM, startDate=Sat Dec 01 00:00:00 EET 2018, state=Open], [projectName=SpeechRecognition, startDate=Sat Sep 01 00:00:00 EET 2018, state=Open], [projectName=FaceRecognition, startDate=Sun Jul 01 00:00:00 EET 2018, state=Open]
+
+
+
+********************************CUSTOMERS********************************
+Customer [id=224, products=Product Info [productName=Product5, transactionDate=Wed Jan 11 00:00:00 EET 2017, price=90000.0], [productName=Product2, transactionDate=Fri Feb 01 00:00:00 EET 2019, price=1500.0], [productName=Product1, transactionDate=Tue Jan 01 00:00:00 EET 2019, price=10000.0]]
+Customer [id=267, products=Product Info [productName=Product3, transactionDate=Thu Nov 01 00:00:00 EET 2018, price=15000.0]]
+Customer [id=178, products=Product Info [productName=Product3, transactionDate=Thu Nov 01 00:00:00 EET 2018, price=15000.0], [productName=Product2, transactionDate=Fri Feb 01 00:00:00 EET 2019, price=1500.0]]
+
+**********************************PEOPLES**********************************
+Person [id=145, firstName=Ismail, lastName=Celik, gender=Man, birthDate=Thu Jun 09 00:00:00 EEST 1988, maritalStatus=Married, hasDriverLicence=Yes]
+Person [id=178, firstName=Cevdet, lastName=Balci, gender=Man, birthDate=Mon Nov 28 00:00:00 EET 1988, maritalStatus=Married, hasDriverLicence=No]
+Person [id=189, firstName=Taner, lastName=Eser, gender=Man, birthDate=Mon Jan 09 00:00:00 EET 1967, maritalStatus=Single, hasDriverLicence=Yes]
+Person [id=224, firstName=Hacer, lastName=Paksoy, gender=Woman, birthDate=Sun Feb 01 00:00:00 EET 1998, maritalStatus=Married, hasDriverLicence=Yes]
+Person [id=236, firstName=Ela, lastName=Kara, gender=Woman, birthDate=Sun Sep 24 00:00:00 EEST 1989, maritalStatus=Married, hasDriverLicence=No]
+Person [id=267, firstName=Selin, lastName=Ergul, gender=Woman, birthDate=Sat Jul 09 00:00:00 EEST 1988, maritalStatus=Single, hasDriverLicence=No]
